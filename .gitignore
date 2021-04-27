@@ -7,7 +7,7 @@ doxygen_warnings.txt
 /.metadata/
 .vscode/*
 *.o
-*.d 
+*.d
 *.elf
 *.hex
 !/vendors/cypress/MTB/psoc6/psoc64tfm/COMPONENT_TFM_S_FW/tfm_s_unsigned.hex
@@ -22,3 +22,7 @@ RemoteSystemsTempFiles/*
 # Ignore certificate files
 *.pem
 *.crt
+
+# Ignore credential files
+demos/include/aws_clientcredential.h
+demos/include/aws_clientcredential_keys.h
